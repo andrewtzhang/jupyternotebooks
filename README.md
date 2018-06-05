@@ -1,6 +1,9 @@
 # everything writer
+
 everything i need to do for writer
+
 ##Summer things
+
 Week 0 fin ntbks
 Week 1-2 Udacity intro ml
 Week 3 kaggle titanic
