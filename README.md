@@ -2,7 +2,7 @@
 
 everything i need to do for writer
 
-##Summer things
+## Summer things
 
 Week 0 fin ntbks
 Week 1-2 Udacity intro ml
