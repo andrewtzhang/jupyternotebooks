@@ -4,12 +4,12 @@ everything i need to do for writer
 https://www.udemy.com/neural-networks_in_matlab/
 ## Summer things
 
+* Finish Coursera - MML notebooks
+
 ### Meeting Days
 
 * First Day - 
 * Second Day - 
-
-* Finish Coursera - MML notebooks
 
 ### Milestone 1 - 6/30/18
 
@@ -33,3 +33,5 @@ https://www.udemy.com/neural-networks_in_matlab/
 ### Milestone 5 - 8/25/18
 
 * Obtain training data
+* Know what image processing needs to be done to images
+* Have general sense of what the network looks like
