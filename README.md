@@ -1,14 +1,11 @@
 # everything writer
 
 everything i need to do for writer
-https://www.udemy.com/neural-networks_in_matlab/
 ## Summer things
-
-* Finish Coursera - MML notebooks
 
 ### Meeting Days
 
-* First Day - 
+* First Day - 7/5
 * Second Day - 
 
 ### Milestone 1 - 6/30/18
