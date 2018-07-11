@@ -10,7 +10,6 @@ while x <= length(v)
         
     fprintf("%d yote",x)
         if x == 1
-            fprintf("%d yote",5)
             w = [w(x+1:end),w(x)];
         elseif x == length(v)
             x=x+1;
