@@ -10,7 +10,7 @@ everything i need to do for writer
 
 ### Milestone 1 - 6/30/18
 
-* Finish [Udacity - Intro to Machine Learning](https://classroom.udacity.com/courses/ud120) -- [FILES](https://github.com/andrewtzhang/ud120-projects.git)
+* Finish [Udacity - Intro to Machine Learning](https://classroom.udacity.com/courses/ud120) -- [~~FILES~~](https://github.com/andrewtzhang/ud120-projects.git) cant push to repo? pdf of it is in udacity folder
 * Finish [Week 4 of Coursera - MATLAB intro](https://www.coursera.org/learn/matlab)
 
 ### Milestone 2 - 7/14/18
