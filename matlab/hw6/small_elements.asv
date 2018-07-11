@@ -1,0 +1,6 @@
+function out = small_elements(x)
+[row col] = size(x);
+dex = 1;
+for r = 1:row
+    for c = 1:col
+        if(x(r,c)<(r*

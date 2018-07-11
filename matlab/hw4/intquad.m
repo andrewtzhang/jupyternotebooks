@@ -1,6 +1,6 @@
-function Q = intquad(n,m);
-Q(1:n,1:m) = 0;
-Q(n+1:n,1:m) = 1;
-Q(1:n,1+m:m) = 2;
-Q(n+1:n,1+m:m) = 3;
+function Q = intquad(m,n)
+Q(1:m,1:n) = 0;
+Q(m+1:2*m,1:2*n) = 2;
+Q(1:2*m,1+n:2*n) = 1;
+Q(m+1:2*m,1+n:2*n) = 3;
 end
