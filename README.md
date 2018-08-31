@@ -26,9 +26,9 @@ everything i need to do for writer
 ### Milestone 4 - 8/11/18
 
 * Finish [Kaggle - scikit learn start to finish](https://www.kaggle.com/jeffd23/scikit-learn-ml-from-start-to-finish)
-
+* Finish Udemy NN
+* Finish Week 2 of Coursera NN
 ### Milestone 5 - 8/25/18
 
-* Obtain training data
-* Know what image processing needs to be done to images
 * Have general sense of what the network looks like
+* Finish Week 4 of Coursera NN
