@@ -1,3 +1,4 @@
+# %load dataproc.py
 import binvox_rw
 import numpy as np
 from pathlib import Path
@@ -10,11 +11,12 @@ def get_immediate_subdirectories(a_dir):
     return [name for name in os.listdir(a_dir)
             if os.path.isdir(os.path.join(a_dir, name))]
 
+os.chdir(os.path.dirname(os.getcwd()))
 currentdir = os.getcwd()
 #os.system("C:\Windows\System32\cmd.exe /c C:\\Users\\775657\\Documents\\jupyternotebooks\hellothere.bat")
 
 splits = ['train','test']
-def_path = 'ModelNet2mini/'
+def_path = currentdir + '/data/ModelNet2/'
 types = get_immediate_subdirectories(def_path)
 x = []
 y = []
@@ -43,3 +45,6 @@ x = np.array(x, dtype=float)
 y = np.array(y, dtype=float)
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=442)
+
+x=None
+y=None
