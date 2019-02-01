@@ -34,14 +34,14 @@ for typ in range(len(types)): #Model Directory
             #Voxels
             with open(sof_paths[file], 'rb') as f:
                 model = binvox_rw.read_as_3d_array(f)
-            x.append(model.data)
+            x.append([model.data])
             
             #Labels
             label = [0] * len(types)
             label[typ] = 1
             y.append(label)
 
-x = np.array(x, dtype=float)
+x = np.reshape(np.array(x, dtype=int), (572, 32, 32, 32, 1))
 y = np.array(y, dtype=float)
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=442)
